@@ -1,0 +1,11 @@
+{
+  "name": "tonyromas",
+  "version": "1.0.0",
+  "description": "Mock website for the Tony Romas chain of restaurants",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro Rodriguez",
+  "license": "ISC"
+}

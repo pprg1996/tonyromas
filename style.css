@@ -1,0 +1,205 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 8.25rem;
+  transition: all .4s ease;
+  z-index: 10;
+}
+
+.scrolledHeader{
+  background-color: rgba(0, 0, 0, 0.685);
+  height: 5rem;
+}
+
+.headerLogoDiv{
+  display: inline-block;
+  width: 12.5rem;
+  /* background-color: black; */
+}
+
+.headerLogoImg{
+  width: 100%;
+}
+
+.menuLinksNav{
+  /* display: flex; */
+}
+
+.menuLink{
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.menuLink:not(:last-child){
+  margin-right: 2.5rem;
+}
+
+.menuLink:visited{
+  color: white;
+}
+
+.reservations{
+  font-weight: 700;
+  padding: .7rem 1.4rem;
+  color: white;
+  border: solid 2px white;
+}
+
+.heroDiv{
+  height: 60rem;
+  background: linear-gradient(#0001118a,#0001118a),url("./assets/restaurant.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroMessageDiv{
+  width: 55rem;
+}
+
+.cursiveMessage{
+  margin: 0;
+  color: #B49383;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.bigMessage{
+  color: white;
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.littleLongMessage{
+  color: white;
+  text-align: center;
+}
+
+.introDiv{
+  display: flex;
+  padding: 100px 0;
+  justify-content: center;
+  position: relative;
+}
+
+.introImgDiv{
+  height: 550px;
+  width: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+.introImgDiv:nth-child(2){
+  margin-right: 30rem;
+  margin-left: 1.3rem;
+}
+
+.introImg{
+  height: 100%;
+  transform: translateX(-180px);
+}
+
+.colorOverlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #90704a63;
+  z-index: 2;
+  top: 0;
+  left: 0;
+}
+
+.introMessageDiv{
+  background-color: white;
+  padding: 2.5rem 3.5rem;
+  padding-bottom: 1rem;
+  position: absolute;
+  border: solid 2px #b49383;
+  width: 30rem;
+  height: 18rem;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  box-shadow: 0px 45px 70px rgba(0,0,0,0.24);
+  z-index: 3;
+}
+
+.cursiveIntroMessage{
+  margin: 0;
+  color: #B49383;
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+}
+
+.bigIntroMessage{
+  font-weight: 400;
+  font-size: 2.7rem;
+  margin-top: .4rem;
+}
+
+.littleLongIntroMessage{
+  color: #636363;
+  line-height: 1.8rem;
+}
+
+.videoDiv{
+  background-image: url("./assets/video.jpg");
+  background-position: center;
+  height: 500px;
+}
+
+.signatureDishDiv{
+  position: relative;
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.signatureDishImgDiv{
+  margin-left: 25rem;
+}
+
+.signatureMessageDiv{
+left: auto;
+right: 50%;
+}
+
+.signatureDishName{
+  font-weight: 400;
+  color: #525252;
+}
+
+.orderNow{
+  text-decoration: none;
+  color: #C4AB9F;
+  font-size: 1.1rem;
+  border: solid 2px #C4AB9F;
+  padding: .7rem 2.5rem;
+  margin-top: 20px;
+  display: inline-block;
+  transition: all .4s ease;
+}
+
+.orderNow:hover{
+  color: white;
+  background-color: #C4AB9F;
+}
